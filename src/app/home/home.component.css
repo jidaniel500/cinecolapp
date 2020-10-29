@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+#collapse-main-navbar{
+    
+    min-width:  200px;
+    max-width: 100%;
+    background-color:yellow;
+    
+}
+
+.sidebar
+{
+     top : 0;
+     left: 0;
+     bottom: 0;
+     padding: 48px;
+     z-index: 100;
+     background-color: #95a5a6;
+}
+
+.sidebar-box{
+    position: relative;
+    height: calc(100vh - 48px);
+    padding-top: 5rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding : 48px 0 0 ;
+}
+.sidebar .nav-link {
+     font-weight: 500;
+      color : #333;
+}
+
+.showproductos
+{
+    border: solid 2px #ecf0f1;
+    padding : 10px 10px 0;
+    width : 110%;
+    
+}
+
+/* */
+table thead 
+{
+     color: #636e72;
+     font-family: 'Roboto', sans-serif;
+     background-color : #dfe6e9;
+}
+
+table tbody 
+{
+    font-family: 'Roboto', sans-serif;
+    color: #ecf0f1;
+    background-color : #2d3436;
+}
