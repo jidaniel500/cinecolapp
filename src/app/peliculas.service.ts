@@ -12,7 +12,7 @@ export class PeliculasService {
 
   constructor(private httpclient: HttpClient) { }
   currentPelicula: Peliculas;
-  urlApi = 'http://www.omdbapi.com/?apikey=cde911a0&t=';
+  urlApi = 'https://www.omdbapi.com/?apikey=cde911a0&t=';
 
   getInfoPelicula(namepelicula: string): Observable<Peliculas> {
   
