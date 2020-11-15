@@ -28,6 +28,6 @@ import { HeaderComponent } from './header/header.component';
     ReactiveFormsModule
   ],
   providers: [],
-  bootstrap: [LoginComponent]
+  bootstrap: [HomeComponent]
 })
 export class AppModule {  }
